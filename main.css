@@ -1,0 +1,35 @@
+.logo{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.search{
+	width: 600px;
+	padding-left: 10px;
+}
+#imdbRatings{
+	display: inline;
+}
+.ten{
+	font-size: 14px;
+}
+.photos{
+	height: 450px;
+}
+.titleNav{
+	height: 130px;
+}
+#titleNav>h5{
+	padding-top: 40px;
+	padding-left: 30px;
+}
+#searchBar{
+	margin-left: 20px;
+}
+.basic{
+	margin-left: 40px;
+	margin-right: 10px;
+	margin-top: 25px;
+}
+.poster{
+	margin-top: 10px;
+}
