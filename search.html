@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mwikia | Search Movies and TV Series</title>
+	<!--meta tags-->
+	<meta content="1 days" name="revisit-after">
+	<meta content="Dhruv Jain" name="author">
+	<meta content="Search for Movies' and TV Series' basic details, imdb and tomato ratings, plot, director, writer and casting names and Box Office collection with Official Poster and Trailer." name="description">
+	<meta content="Dhruv Jain, DhruvJain, mwikia, Dhruv mwikia, movies, Tv series, movies ratings, movies imdb ratings, movies tomato ratings, movies box office collection, movies director, movies casting, movies writer, movies plot, movies official poster, movies official trailer, movies awards, TV series ratings, TV series imdb ratings, TV series tomato ratings, TV series box office collection, TV series director, TV series casting, TV series writer, TV series plot, TV series official poster, TV series official trailer, TV series awards, Dhruv, midhruvjaink, Mukesh Jain, DatorLab, GitHub, StackOverFlow, Quora, dj, Dhruva Jain, ZeroPennyMovies, JECRC, Jaipur, India, JECRC College, Jaipur Engineering College and Research Center," name="keywords">
+	<meta content="Dhruv Jain" name="site_name">
+	<link href='fav.png' rel='icon' type='image/x-icon'/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<script language="JavaScript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+	<link href="main.css" rel="stylesheet" />
+</head>
+<body>
+<div class="">
+<div class="clearfix"></div>
+	<!--top nav-->
+	<nav class="titleNav indigo darken-3 z-depth-4" id="">
+		<ul>
+		<li id="titleNav"></li>
+		</ul>
+	</nav>
+	<!--search nav-->
+	<nav class="indigo darken-1 z-depth-2">
+		<div class="nav-wrapper">
+			<ul>
+			<li class="search" id="searchBar">
+				<form action="search.html">
+					<input type="search" id="search" name="q" placeholder="Search Movie or TV Series" class="" />
+					<script type="text/javascript">
+						var input = document.getElementById('search');
+						input.focus();
+						input.select();
+					</script>
+				</form>
+			</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="row basic">
+		<div class="col s8">
+			<div class="hoverable card z-depth-1 blue-text">
+			<!--basic ccard-->
+	            <div class="card-content" id="details">
+	            </div>
+	        </div>
+	        <br />
+	        <div class="row">
+		        <div class="hoverable col s12 card z-depth-1 ">
+		        	<div class="card-content row">
+		        		<div id="imdbRatings" class="col s2 blue-text"></div>
+		        		<div id="tomatoRating" class="col s2 blue-text"></div>
+		        		<div id="tomatoConsensus" class="col s8"><b>Tomato Consensus: </b></div>
+		        	</div>
+		        </div>
+	        </div>
+	        <div class="hoverable card z-depth-1">
+	        	<div class="card-content" id="plot"></div>
+	        </div>
+	    </div>
+		<!--poster-->
+        <div class="col s3 offset-s1 poster responsive-img" id="poster">
+        </div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="row" id="result">
+		<div class="col s4">
+			<div class="" id="trailer"></div>
+		</div>
+		<div class="col s4">
+			<div class="hoverable card z-depth-1">
+				<div class="card-content">
+					<div id="director"><strong>Director: </strong></div>
+					<div id="writer"><strong>Writer: </strong></div>
+					<div id="Production"><strong>Production: </strong></div>
+				</div>
+			</div>
+			<div class="hoverable card z-depth-1">
+				<div class="card-content">
+					<div id="Casting"><strong>Cast: </strong></div>
+				</div>
+			</div>
+		</div>
+		<div class="col s4">
+			<div class="hoverable card z-depth-1">
+				<div class="card-content">
+					<div id="awards"><strong>Awards: </strong></div>
+					<div id="DVD"><strong>DVD: </strong></div>
+					<div id="BoxOffice"><strong>BoxOffice: </strong></div>
+					<div id="language"><strong>Language: </strong></div>
+					<div id="country"><strong>Country: </strong></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="trailer.js"></script>
+</div>
+</body>
+</html>
