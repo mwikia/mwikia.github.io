@@ -10,6 +10,7 @@
 	<meta content="Dhruv Jain" name="site_name">
 	<link href='fav.png' rel='icon' type='image/x-icon'/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script language="JavaScript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 	<link href="main.css" rel="stylesheet" />
 </head>
@@ -24,9 +25,8 @@
 	</nav>
 	<!--search nav-->
 	<nav class="indigo darken-1 z-depth-2">
-		<div class="nav-wrapper">
-			<ul>
-			<li class="search" id="searchBar">
+		<div class="nav-wrapper row">
+			<div class="col-sm-12 col-md-6 col-lg-7 search" id="searchBar">
 				<form action="search.html">
 					<input type="search" id="search" name="q" placeholder="Search Movie or TV Series" class="" />
 					<script type="text/javascript">
@@ -35,12 +35,11 @@
 						input.select();
 					</script>
 				</form>
-			</li>
-			</ul>
+			</div>
 		</div>
 	</nav>
 	<div class="row basic">
-		<div class="col s8">
+		<div class="col-sm-12 col-md-8 col-lg-8">
 			<div class="hoverable card z-depth-1 blue-text">
 			<!--basic ccard-->
 	            <div class="card-content" id="details">
@@ -48,7 +47,7 @@
 	        </div>
 	        <br />
 	        <div class="row">
-		        <div class="hoverable col s12 card z-depth-1 ">
+		        <div class="hoverable col-sm-12 col-md-8 col-lg-8 card z-depth-1 ">
 		        	<div class="card-content row">
 		        		<div id="imdbRatings" class="col s2 blue-text"></div>
 		        		<div id="tomatoRating" class="col s2 blue-text"></div>
@@ -61,15 +60,14 @@
 	        </div>
 	    </div>
 		<!--poster-->
-        <div class="col s3 offset-s1 poster responsive-img" id="poster">
-        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 offset-m1 poster responsive-img" id="poster"></div>
 	</div>
 	<div class="clearfix"></div>
 	<div class="row" id="result">
-		<div class="col s4">
+		<div class="col-sm-12 col-md-4 col-lg-4">
 			<div class="" id="trailer"></div>
 		</div>
-		<div class="col s4">
+		<div class="col-sm-12 col-md-4 col-lg-4">
 			<div class="hoverable card z-depth-1">
 				<div class="card-content">
 					<div id="director"><strong>Director: </strong></div>
@@ -83,7 +81,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col s4">
+		<div class="col-sm-12 col-md-4 col-lg-4">
 			<div class="hoverable card z-depth-1">
 				<div class="card-content">
 					<div id="awards"><strong>Awards: </strong></div>

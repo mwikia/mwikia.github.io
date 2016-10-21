@@ -5,6 +5,7 @@
 .search{
 	width: 600px;
 	padding-left: 10px;
+	padding-right: 10px;
 }
 #imdbRatings{
 	display: inline;

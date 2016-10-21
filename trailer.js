@@ -1,6 +1,6 @@
 //youtube trailer
 		var q = window.location.href;
-		var query = q.substring(51, q.length);
+		var query = q.substring(39, q.length);
 		var yt = new XMLHttpRequest();
 		  var api = "AIzaSyDf-TCgD54NNSlg_PbqeJyhXWhn0B4WBzw";
 		  var link = "https://www.googleapis.com/youtube/v3/search?part=id&q=";
