@@ -15,7 +15,7 @@ var q = window.location.href;
 			       
 			       var title = rss.Title;
 			       var year = rss.Year;
-			       document.getElementById('titleNav').innerHTML = ('<h3 class="white-text">'+title+' ('+year+')'+'</h3>');
+			       document.getElementById('titleNav').innerHTML = ('<h3 class="white-text" style="padding-left:10px">'+title+' ('+year+')'+'</h3>');
 			       var type = rss.Type;
 			       //document.getElementById('type').innerHTML = (' '+type+' > ');
 			       var genres = rss.Genre;
