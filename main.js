@@ -2,7 +2,7 @@ var q = window.location.href;
 		var query = q.substring(39, q.length);
 		document.write(query);
 		var xhr = new XMLHttpRequest();
-		var url = "http://www.omdbapi.com/?t=";
+		var url = "https://www.omdbapi.com/?t=";
 		url += query;
 		url += "&plot=full&r=json&tomatoes=true";
 		xhr.open("GET", url, true);
